@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"
+		href="Contact Us.css">
+	<title>Contact us Page</title>
+</head>
+
+<body>
+	
+	<header>
+		<button class="hamburger" id="hamburger-icon">
+			<span onclick="openNavbar()"> ☰</span>
+		</button>
+		<div class="logo">SAFISHA</div>
+		<nav id="nav-menu">
+			<ul>
+				<li><a href="requestor.html">Home</a></li>
+				<li><a href="About Us.html">About</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+				<li><a href="Contact Us.html">Contact</a></li>
+                
+			</ul>
+		</nav>
+		
+	</header>
+
+	
+	<section class="banner">
+		
+		<h1>Get in Touch With Us</h1>
+		<p>
+		We're here to answer any questions you may have.
+		</p>
+	</section>
+
+	
+	<section class="contact-form">
+		<div class="form-container">
+			<h2>Your Details</h2>
+			<form>
+
+				
+
+        
+       
+       
+        
+        <div class="form-row">
+            
+                <input type="text" id="name" placeholder="Enter your Name">
+                <span class="error-message"></span>
+            </div>
+
+            <div class="form-row">
+                
+                <input type="email" id="email" placeholder="Enter your Email">
+                <span class="error-message"></span>
+            </div>
+            <div class="form-row">
+                
+                <input type="tel" pattern="[0-9]{10}" placeholder="Enter your Phone Number">
+                <span class="error-message"></span>
+            </div>
+            
+              <div class="form-row">
+				<label for="message">Message: </label>
+				<textarea id="message" name="message" rows="4" required></textarea>
+                 </div>
+
+				<button type="submit" class="submit-button">Submit</button>
+			</form>
+		</div>
+	</section>
+
+	
+	<section class="contact-info">
+		<h2>Contact Information</h2>
+		<info>
+			Safisha Waste Management System<br>
+			Email: <a href="Safisha@gmail.com">Safisha@gmail.com</a>
+        </info>
+	</section>
+
+	
+	<footer>
+		<p>
+		© 2023 Safisha Waste Management System. All rights reserved.
+		</p>
+	</footer>
+	<script src="Contact.js"></script>
+</body>
+
+</html>

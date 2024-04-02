@@ -1,0 +1,23 @@
+body{
+  font-family: Arial, sans-serif;
+    background: rgb(173, 252, 163);
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.form-container {
+  width: 50%; /* Adjust the width as needed */
+}
+.image-container {
+  width: 40%; /* Adjust the width as needed */
+ 
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
